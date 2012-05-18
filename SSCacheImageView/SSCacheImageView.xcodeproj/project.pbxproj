@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C89711B813DBDDFF004E5667 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C89711B713DBDDFF004E5667 /* UIKit.framework */; };
+		C89711BA13DBDDFF004E5667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C89711B913DBDDFF004E5667 /* Foundation.framework */; };
+		C89711BC13DBDDFF004E5667 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C89711BB13DBDDFF004E5667 /* CoreGraphics.framework */; };
+		C89711C213DBDDFF004E5667 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C89711C013DBDDFF004E5667 /* InfoPlist.strings */; };
+		C89711C513DBDDFF004E5667 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C89711C413DBDDFF004E5667 /* main.m */; };
+		C89711C813DBDDFF004E5667 /* SSCacheImageViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C89711C713DBDDFF004E5667 /* SSCacheImageViewAppDelegate.m */; };
+		C89711CB13DBDDFF004E5667 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C89711C913DBDDFF004E5667 /* MainWindow.xib */; };
+		C89711CE13DBDDFF004E5667 /* SSCacheImageViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C89711CD13DBDDFF004E5667 /* SSCacheImageViewViewController.m */; };
+		C89711D113DBDDFF004E5667 /* SSCacheImageViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C89711CF13DBDDFF004E5667 /* SSCacheImageViewViewController.xib */; };
+		C89711D913DBDE0F004E5667 /* SSCacheImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C89711D813DBDE0F004E5667 /* SSCacheImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C89711B313DBDDFE004E5667 /* SSCacheImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSCacheImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89711B713DBDDFF004E5667 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C89711B913DBDDFF004E5667 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C89711BB13DBDDFF004E5667 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C89711BF13DBDDFF004E5667 /* SSCacheImageView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSCacheImageView-Info.plist"; sourceTree = "<group>"; };
+		C89711C113DBDDFF004E5667 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C89711C313DBDDFF004E5667 /* SSCacheImageView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSCacheImageView-Prefix.pch"; sourceTree = "<group>"; };
+		C89711C413DBDDFF004E5667 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C89711C613DBDDFF004E5667 /* SSCacheImageViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSCacheImageViewAppDelegate.h; sourceTree = "<group>"; };
+		C89711C713DBDDFF004E5667 /* SSCacheImageViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSCacheImageViewAppDelegate.m; sourceTree = "<group>"; };
+		C89711CA13DBDDFF004E5667 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C89711CC13DBDDFF004E5667 /* SSCacheImageViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSCacheImageViewViewController.h; sourceTree = "<group>"; };
+		C89711CD13DBDDFF004E5667 /* SSCacheImageViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSCacheImageViewViewController.m; sourceTree = "<group>"; };
+		C89711D013DBDDFF004E5667 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSCacheImageViewViewController.xib; sourceTree = "<group>"; };
+		C89711D713DBDE0F004E5667 /* SSCacheImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCacheImageView.h; sourceTree = "<group>"; };
+		C89711D813DBDE0F004E5667 /* SSCacheImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCacheImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C89711B013DBDDFE004E5667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89711B813DBDDFF004E5667 /* UIKit.framework in Frameworks */,
+				C89711BA13DBDDFF004E5667 /* Foundation.framework in Frameworks */,
+				C89711BC13DBDDFF004E5667 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C89711A813DBDDFE004E5667 = {
+			isa = PBXGroup;
+			children = (
+				C89711BD13DBDDFF004E5667 /* SSCacheImageView */,
+				C89711B613DBDDFF004E5667 /* Frameworks */,
+				C89711B413DBDDFE004E5667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C89711B413DBDDFE004E5667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C89711B313DBDDFE004E5667 /* SSCacheImageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C89711B613DBDDFF004E5667 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C89711B713DBDDFF004E5667 /* UIKit.framework */,
+				C89711B913DBDDFF004E5667 /* Foundation.framework */,
+				C89711BB13DBDDFF004E5667 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C89711BD13DBDDFF004E5667 /* SSCacheImageView */ = {
+			isa = PBXGroup;
+			children = (
+				C89711C613DBDDFF004E5667 /* SSCacheImageViewAppDelegate.h */,
+				C89711C713DBDDFF004E5667 /* SSCacheImageViewAppDelegate.m */,
+				C89711C913DBDDFF004E5667 /* MainWindow.xib */,
+				C89711CC13DBDDFF004E5667 /* SSCacheImageViewViewController.h */,
+				C89711CD13DBDDFF004E5667 /* SSCacheImageViewViewController.m */,
+				C89711CF13DBDDFF004E5667 /* SSCacheImageViewViewController.xib */,
+				C89711D713DBDE0F004E5667 /* SSCacheImageView.h */,
+				C89711D813DBDE0F004E5667 /* SSCacheImageView.m */,
+				C89711BE13DBDDFF004E5667 /* Supporting Files */,
+			);
+			path = SSCacheImageView;
+			sourceTree = "<group>";
+		};
+		C89711BE13DBDDFF004E5667 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C89711BF13DBDDFF004E5667 /* SSCacheImageView-Info.plist */,
+				C89711C013DBDDFF004E5667 /* InfoPlist.strings */,
+				C89711C313DBDDFF004E5667 /* SSCacheImageView-Prefix.pch */,
+				C89711C413DBDDFF004E5667 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C89711B213DBDDFE004E5667 /* SSCacheImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C89711D413DBDDFF004E5667 /* Build configuration list for PBXNativeTarget "SSCacheImageView" */;
+			buildPhases = (
+				C89711AF13DBDDFE004E5667 /* Sources */,
+				C89711B013DBDDFE004E5667 /* Frameworks */,
+				C89711B113DBDDFE004E5667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSCacheImageView;
+			productName = SSCacheImageView;
+			productReference = C89711B313DBDDFE004E5667 /* SSCacheImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C89711AA13DBDDFE004E5667 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C89711AD13DBDDFE004E5667 /* Build configuration list for PBXProject "SSCacheImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C89711A813DBDDFE004E5667;
+			productRefGroup = C89711B413DBDDFE004E5667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C89711B213DBDDFE004E5667 /* SSCacheImageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C89711B113DBDDFE004E5667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89711C213DBDDFF004E5667 /* InfoPlist.strings in Resources */,
+				C89711CB13DBDDFF004E5667 /* MainWindow.xib in Resources */,
+				C89711D113DBDDFF004E5667 /* SSCacheImageViewViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C89711AF13DBDDFE004E5667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89711C513DBDDFF004E5667 /* main.m in Sources */,
+				C89711C813DBDDFF004E5667 /* SSCacheImageViewAppDelegate.m in Sources */,
+				C89711CE13DBDDFF004E5667 /* SSCacheImageViewViewController.m in Sources */,
+				C89711D913DBDE0F004E5667 /* SSCacheImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C89711C013DBDDFF004E5667 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C89711C113DBDDFF004E5667 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C89711C913DBDDFF004E5667 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C89711CA13DBDDFF004E5667 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C89711CF13DBDDFF004E5667 /* SSCacheImageViewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C89711D013DBDDFF004E5667 /* en */,
+			);
+			name = SSCacheImageViewViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C89711D213DBDDFF004E5667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C89711D313DBDDFF004E5667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C89711D513DBDDFF004E5667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSCacheImageView/SSCacheImageView-Prefix.pch";
+				INFOPLIST_FILE = "SSCacheImageView/SSCacheImageView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C89711D613DBDDFF004E5667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSCacheImageView/SSCacheImageView-Prefix.pch";
+				INFOPLIST_FILE = "SSCacheImageView/SSCacheImageView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C89711AD13DBDDFE004E5667 /* Build configuration list for PBXProject "SSCacheImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C89711D213DBDDFF004E5667 /* Debug */,
+				C89711D313DBDDFF004E5667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C89711D413DBDDFF004E5667 /* Build configuration list for PBXNativeTarget "SSCacheImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C89711D513DBDDFF004E5667 /* Debug */,
+				C89711D613DBDDFF004E5667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C89711AA13DBDDFE004E5667 /* Project object */;
+}
